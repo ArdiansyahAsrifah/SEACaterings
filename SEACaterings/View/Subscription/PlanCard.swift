@@ -43,7 +43,7 @@ struct PlanCard: View {
                 
                
                 VStack(alignment: .trailing, spacing: 2) {
-                    Text("Rp\(Int(plan.pricePerMeal).formattedWithSeparator())")
+                    Text("$\(Int(plan.pricePerMeal).formattedWithSeparator())")
                         .font(.headline)
                         .fontWeight(.bold)
                         .foregroundColor(.primary)

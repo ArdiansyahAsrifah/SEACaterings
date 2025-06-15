@@ -20,9 +20,9 @@ struct SubscriptionFormView: View {
         var id: String { rawValue }
         var pricePerMeal: Double {
             switch self {
-            case .diet: return 30000
-            case .protein: return 40000
-            case .royal: return 60000
+            case .diet: return 24.00
+            case .protein: return 15.00
+            case .royal: return 18.00
             }
         }
         
