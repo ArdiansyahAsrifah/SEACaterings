@@ -20,14 +20,14 @@ struct PriceSummarySection: View {
             
             VStack(spacing: 12) {
                 PriceRow(title: "Selected Plan", value: selectedPlan.rawValue, isHighlighted: false)
-                PriceRow(title: "Price per meal", value: "Rp\(Int(selectedPlan.pricePerMeal).formattedWithSeparator())", isHighlighted: false)
+                PriceRow(title: "Price per meal", value: "$\(Int(selectedPlan.pricePerMeal).formattedWithSeparator())", isHighlighted: false)
                 PriceRow(title: "Meals per day", value: "\(mealCount)", isHighlighted: false)
                 PriceRow(title: "Delivery days", value: "\(dayCount)", isHighlighted: false)
                 PriceRow(title: "Monthly meals", value: "\(Int(Double(mealCount * dayCount) * 4.3))", isHighlighted: false)
                 
                 Divider()
                 
-                PriceRow(title: "Total Monthly Price", value: "Rp\(Int(totalPrice).formattedWithSeparator())", isHighlighted: true)
+                PriceRow(title: "Total Monthly Price", value: "$\(Int(totalPrice).formattedWithSeparator())", isHighlighted: true)
             }
         }
         .padding()
