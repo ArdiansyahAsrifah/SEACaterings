@@ -53,7 +53,7 @@ struct MealTypesSection: View {
     
     func mealIcon(for meal: String) -> String {
         switch meal {
-        case "Breakfast": return "sun.rise.fill"
+        case "Breakfast": return "sun.horizon.fill"
         case "Lunch": return "sun.max.fill"
         case "Dinner": return "moon.stars.fill"
         default: return "fork.knife"
