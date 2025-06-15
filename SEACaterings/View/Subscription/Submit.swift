@@ -12,7 +12,10 @@ struct SubmitButton: View {
     let action: () -> Void
     
     var body: some View {
-        Button(action: action) {
+        Button(action: {
+            hideKeyboard()
+            action()
+        }) {
             HStack {
                 Image(systemName: "checkmark.circle.fill")
                     .font(.title3)
