@@ -21,8 +21,7 @@ class TestimonialViewModel: ObservableObject {
     func addTestimonial() {
         guard !nameInput.isEmpty, !messageInput.isEmpty else { return }
         let newTestimonial = Testimonial(name: nameInput, message: messageInput, rating: ratingInput)
-        testimonials.append(newTestimonial)
-        // Reset form
+        testimonials.append(newTestimonial
         nameInput = ""
         messageInput = ""
         ratingInput = 3
@@ -55,7 +54,7 @@ struct ContentView: View {
                                         .opacity(featureVM.animateFeatures ? 1.0 : 0.0)
                                         .animation(.easeOut(duration: 0.6).delay(0.4), value: featureVM.animateFeatures)
                                     
-                                    // Enhanced Testimonial Section
+                                    
                                     TestimonialSection()
                                         .environmentObject(testimonialVM)
                                         .padding(.top, 30)
@@ -91,11 +90,6 @@ struct ContentView: View {
 }
 
 
-
-
-
-
-// Helper untuk sembunyikan keyboard
 #if canImport(UIKit)
 extension View {
     func hideKeyboard() {
