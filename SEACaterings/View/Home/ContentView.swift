@@ -21,7 +21,7 @@ class TestimonialViewModel: ObservableObject {
     func addTestimonial() {
         guard !nameInput.isEmpty, !messageInput.isEmpty else { return }
         let newTestimonial = Testimonial(name: nameInput, message: messageInput, rating: ratingInput)
-        testimonials.append(newTestimonial
+        testimonials.append(newTestimonial)
         nameInput = ""
         messageInput = ""
         ratingInput = 3
