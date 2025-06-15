@@ -13,8 +13,7 @@ SEACaterings is a comprehensive ios application designed to streamline catering 
 ## 🎥 Demo
 
 ### Video Demo
-[![SEACaterings Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/FKuk8np7K5E?si=c1haZavLk6LyK9o3)
-
+[![SEACaterings Demo](https://github.com/user-attachments/assets/82bca22a-b525-4052-9700-9a2f12feeff1)](https://youtu.be/FKuk8np7K5E?si=c1haZavLk6LyK9o3)
 
 ### Screenshots
 <details>
@@ -70,17 +69,6 @@ SEACaterings is a comprehensive ios application designed to streamline catering 
 
 ## 🚀 Quick Start
 
-### System Requirements
-- **iOS**: 15.0 or later
-- **Xcode**: 15.0 or later
-- **Swift**: 5.9 or later
-- **macOS**: Ventura 13.0 or later (for development)
-
-### Device Compatibility
-- iPhone 12 or later (recommended)
-- iPhone SE (3rd generation) or later
-
-
 ### Installation
 
 1. **Clone the repository**
@@ -89,10 +77,8 @@ SEACaterings is a comprehensive ios application designed to streamline catering 
    cd SEACaterings
    ```
 
-2. **Open the text editor**
-   ```bash
-  Xcode Text Editor and open a existing project
-   ```
+2. **Open the text editor (XCode)**
+   
 
 ## 🤝 Contributing
 
@@ -104,19 +90,15 @@ We welcome contributions from the community! Please follow these steps:
    git checkout -b feature/amazing-feature
    ```
 3. **Make your changes**
-4. **Run tests**
-   ```bash
-   npm test
-   ```
-5. **Commit your changes**
+4. **Commit your changes**
    ```bash
    git commit -m "Add: amazing new feature"
    ```
-6. **Push to your branch**
+5. **Push to your branch**
    ```bash
    git push origin feature/amazing-feature
    ```
-7. **Open a Pull Request**
+6. **Open a Pull Request**
 
 
 ## 👥 Team
